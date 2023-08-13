@@ -21,16 +21,16 @@ var b=(20);
 
 var iscomplete=true;  //boolean  
 var isdelete=0;
-var isequal=(a==b);
+//var isequal=(a==b);
 
-document.write(isequal);
+//document.write(isequal);
 
 //arrays
 var colors=["red","blue","pink"];
 //var names= array("ali","hosien");
 
 var ali=[32,52,85,"koln",true];
-console.log(ali [4]);
+console.log(ali [3]);
 
 var colors3=["black","white","yellow"];
 //colors2.reverse();
@@ -43,4 +43,38 @@ var colors3=["black","white","yellow"];
 var n =colors3.join( " - " );
 
 console.log(n);
+
+//conditional orders
+
+var g=5;  //model 1
+var u=9;
+if(g==u){
+    document.write("true");
+}else{
+    document.write("false");
+}
+
+var p=2,k=2; //model2
+
+//if(p>k){
+    //console.log("bozorg");
+//}else{
+    //console.log("kochak");
+//}
+
+
+var t=55,w=55;  //model3
+var isequal;
+if(t==w){
+    isequal=true;
+}else{
+    isequal=false;
+}
+//console.log("this is answer :"+isequal);
+
+var m=2,n=5;  // model yek khati (kotah)
+var isequal;
+m==n ? isequal=true : isequal=false;
+
+console.log("javab: "  + isequal);
 
